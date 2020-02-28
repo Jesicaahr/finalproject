@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Click Me</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+
+<body>
+    <div id="wrong" class="popup"> Upss Salah </div>
+    <div id="win"class="popup"> Yeayyyy Kamu Menang </div>
+    <div class="canvas">
+
+
+        <h1> CLICK THE BOX </h1>
+        <div class="row">
+            <div class="caption">Level : </div>
+            <div id="level" class="caption"> 0 </div>
+        </div>
+        <h2 id="case" style="color: black"> Biru </h2>
+        <div class="row">
+            <div id="color1" style="background-color: black" class="box color1" onclick="incrementLevel(this)"></div>
+            <div id="color2" style="background-color: blue" class="box color2" onclick="incrementLevel(this)"></div>
+        </div>
+        <button class="button-instruction" type="button" name="button"><a href="index.html">Instruksi</a></button>
+    </div>
+
+    <script src=" ./jscript.js">
+    </script>
+
+</body>
+
+</html>
